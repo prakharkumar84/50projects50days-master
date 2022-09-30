@@ -22,21 +22,21 @@ export default class Routers1 extends Component {
 function isAnimation(){
   return(
     <Link to="/animation">
-      <button className="btn btn-new btn-lg button5 ">Check more</button>
+      <button className="btn-new btn-lg ">Check more</button>
     </Link>
   )
 }
 function isWebDEv(){
   return(
     <Link to="/webdev">
-      <button className="btn btn-new btn-lg button5 ">Check more</button>
+      <button className="btn-new btn-lg ">Check more</button>
     </Link>
   )
 }
 function isGameDev(){
   return(
     <Link to="/gamedev">
-      <button className="btn btn-new btn-lg button5 ">Check more</button>
+      <button className="btn-new btn-lg ">Check more</button>
     </Link>
   )
 }

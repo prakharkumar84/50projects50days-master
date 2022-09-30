@@ -1,0 +1,121 @@
+.formContainer{
+        background-color: #a7bcff;;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.formWrapper{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        padding: 20px 60px;
+        border-radius: 10px;
+        gap: 10px;
+        align-items: center;
+}
+
+.form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+}
+
+.logo{
+        color: rgb(57, 45, 171);
+        font-weight: bold;
+        font-size: 20px;
+
+}
+
+.title{
+        color: rgb(57, 45, 171);
+       
+}
+
+.form > input {
+        border: none;
+        border-bottom:1px solid #a7bcff;
+        padding: 15px;
+}
+
+::placeholder{
+        color: rgb(175,175,175);
+}
+
+.form >button{
+        background-color: #7b96ec;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+p{
+        color: #7b96ec;
+        font-size: small;
+        margin-top: 10px;
+}
+
+.file1{
+        display: none;
+}
+
+.image1{
+        height: 30px;
+        width: 30px;
+}
+.spanText{
+        font-size: small;
+        color: #7b96ec;
+        margin-left: 10px;
+        align-content: center;
+}
+
+.home{
+        background-color: #a7bcff;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.homeContainer{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 65%;
+        height: 80%;
+        display: flex;
+        
+}
+
+.sidebar{
+        flex: 1;
+        border-right: 1px solid #3e3c61;
+        background-color: #3e3c61;
+        border-top-left-radius: 10px;
+}
+.chat{
+        flex:2;
+}
+
+.navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        padding: 10px;
+        color: white;
+        background-color: #2f2d52;
+}
+
+.user{
+        display:flex ;
+        gap: 10px;
+}
+.user>span{
+        font-size: small;
+}

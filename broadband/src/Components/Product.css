@@ -1,0 +1,122 @@
+.product_title {
+  margin-top: 15px;
+  color: #fff;
+  background: #0f397e;
+  font-size: 12px;
+  padding: 6px 22px;
+  display: block;
+  width: fit-content;
+  padding-left: 30px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+  border: 2px solid rgb(220, 224, 224);
+  border-radius: 10px;
+}
+.product_details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+/* .product_data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 14px;
+  border: 1px solid black;
+} */
+
+.product_span {
+  font-size: 20px;
+  color: #0f397e;
+  font-family: "GolosTextWebDemiBold";
+}
+
+.product_speed {
+  font-size: 37px;
+  font-weight: bold;
+  color: #0f397e;
+  line-height: normal;
+  letter-spacing: -0.37px;
+  padding: 5px;
+  font-family: "GolosTextWebDemiBold";
+  align-self: flex-start;
+}
+
+.router_image {
+  height: 80px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.product_bottom {
+  width: 100%;
+  background-color: rgb(39, 39, 226);
+  color: white;
+  margin-top: 10px;
+  padding: -10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.xyz {
+  margin-top: 5px;
+}
+
+.option {
+  color: gray;
+  align-self: flex-start;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.router {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.router_specs {
+  display: flex;
+  flex-direction: column;
+}
+.router {
+  display: flex;
+  flex-direction: row;
+}
+
+.router_option {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f397e;
+  align-self: flex-start;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .router {
+    display: flex;
+    flex-direction: column;
+  }
+  .router_option {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f397e;
+    align-self: flex-start;
+    margin-right: 10px;
+  }
+}
+
+

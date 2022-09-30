@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+// import icon1 from './play.svg'
 
 const GameComponent = ({str,url,play}) => {
   return (
@@ -13,7 +13,9 @@ const GameComponent = ({str,url,play}) => {
                 <img src={url} className="img-thumb1" alt="nhk" />
                 
                 <div className='text-center'>
-                    <a rel="noopener noreferrer" href={play} target="_blank"><button className="btn btn-lg btn-light button5 mt-5">Play Yourself</button></a>
+                    <a rel="noopener noreferrer" href={play} target="_blank"><button className=" btn-lg btn-new  mt-5">
+                      {/* <img src={icon1} className="logo-style mr-1" alt="nhk"/> */}
+                  Play Yourself</button></a>
                 </div>
                 </div>
             

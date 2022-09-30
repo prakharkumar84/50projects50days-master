@@ -9,8 +9,6 @@ import GameDev from './GamedevComponents'
 
 
 class App extends Component {
-  
-
   render(){  
   return (
     <div>
@@ -18,11 +16,9 @@ class App extends Component {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          
           <Route exact path="/" element={<MainPage />}></Route>
           <Route exact path="/animation" element={<Animation />}></Route>
           <Route exact path="/gamedev" element={<GameDev />}></Route>
-          
         </Routes>
       </Router>
     </div>
